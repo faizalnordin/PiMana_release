@@ -1,17 +1,17 @@
 {
-  "versionCode": 4,
-  "versionName": "0.4.0",
+  "versionCode": 5,
+  "versionName": "0.5.0",
   "releaseDate": "2026-11-01",
   "minSdkVersion": 21,
-  "apkUrl": "https://github.com/faizalnordin/PiMana_release/releases/download/v0.4.0/pimana-v0.4.0.apk",
+  "apkUrl": "https://raw.githubusercontent.com/faizalnordin/PiMana_release/main/pimana-v0.5.0.apk",
   "fallbackUrl": "https://t.me/pimana",
-  "title": "PiMana v0.4.0 OTA Update",
+  "title": "PiMana v0.5.0 OTA Update",
   "changelog": [
-    "Sistem kemas kini terus dalam aplikasi (In-place OTA Updater)",
-    "Penyegerakan automatik melalui saluran rasmi GitHub PiMana_release",
-    "Pengesanan had laju & radar AwAS yang dipertingkatkan",
-    "Sifar-Telemetri & perlindungan privasi data lokasi kekal terpelihara"
+    "Pembaikan Susur Keluar & U-Turn Haram: Penjajaran pintar terus ke laluan sah (Brem Mall / Kepong rotary) tanpa melintas garisan berkembar (FB-004)",
+    "Pengesanan Sampai Destinasi Tepat: Menghapuskan isu tamat navigasi pramatang di laluan selari (FB-005)",
+    "Paparan Had Laju Dinamik: Penindasan had laju palsu 110 km/j di jalan bandar jika maklumat belum tersedia (FB-006)",
+    "Keserasian Penuh Android Auto: Integrasi manifes automotif untuk paparan skrin kenderaan & head unit",
+    "Antara Muka Cockpit & Pemanduan: Butang henti navigasi bulat, kad HUD ETA destinasi masa nyata & mod malam automatik"
   ],
   "isCritical": false
 }
-
