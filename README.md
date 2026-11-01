@@ -19,4 +19,9 @@ This repository serves as the official public over-the-air (OTA) distribution an
 - 🚀 Antara Muka Cockpit & Pemanduan: Butang henti navigasi bulat, kad HUD ETA destinasi masa nyata & mod malam automatik
 
 ---
+
+### Previous Releases / Versi Terdahulu (`old_version/`):
+- [pimana-v0.4.0.apk](old_version/pimana-v0.4.0.apk) (0.46 MB)
+
+---
 *Official Telegram Channel*: https://t.me/pimana
