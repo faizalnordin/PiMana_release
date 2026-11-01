@@ -1,18 +1,18 @@
 {
-  "versionCode": 6,
-  "versionName": "0.5.1",
-  "releaseDate": "2026-11-01",
+  "versionCode": 7,
+  "versionName": "0.6.0",
+  "releaseDate": "2026-11-02",
   "minSdkVersion": 21,
-  "apkUrl": "https://raw.githubusercontent.com/faizalnordin/PiMana_release/main/pimana-v0.5.1.apk",
+  "apkUrl": "https://raw.githubusercontent.com/faizalnordin/PiMana_release/main/pimana-v0.6.0.apk",
   "fallbackUrl": "https://t.me/pimana",
-  "title": "PiMana v0.5.1 OTA Update",
+  "title": "PiMana v0.6.0 OTA Update",
   "changelog": [
+    "Integrasi Perkhidmatan Android Auto: Pendaftaran PiManaCarAppService bersama kategori NAVIGATION & PROJECTION bagi membolehkan aplikasi dikesan dalam Customize Launcher Android Auto",
+    "Kawalan Lapisan Kamera AwAS di Peta: Butang togol pantas [📷] untuk memaparkan atau menyembunyikan penanda lokasi kamera AwAS pada peta dengan simpanan pilihan",
     "Pembersihan Antaramuka: Menghapuskan pautan dalaman triaj pembangun daripada modal Tentang",
     "Pembaikan Susur Keluar & U-Turn Haram: Penjajaran pintar terus ke laluan sah (Brem Mall / Kepong rotary) tanpa melintas garisan berkembar (FB-004)",
     "Pengesanan Sampai Destinasi Tepat: Menghapuskan isu tamat navigasi pramatang di laluan selari (FB-005)",
-    "Paparan Had Laju Dinamik: Penindasan had laju palsu 110 km/j di jalan bandar jika maklumat belum tersedia (FB-006)",
-    "Keserasian Penuh Android Auto: Integrasi manifes automotif untuk paparan skrin kenderaan & head unit",
-    "Antara Muka Cockpit & Pemanduan: Butang henti navigasi bulat, kad HUD ETA destinasi masa nyata & mod malam automatik"
+    "Paparan Had Laju Dinamik: Penindasan had laju palsu 110 km/j di jalan bandar jika maklumat belum tersedia (FB-006)"
   ],
   "isCritical": false
 }
