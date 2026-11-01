@@ -12,7 +12,6 @@ This repository serves as the official public over-the-air (OTA) distribution an
 - **Target SDK**: Android 9.0 (API 28)
 
 ### What's New in v0.5.1:
-- 🚀 Pembersihan Antaramuka: Menghapuskan pautan dalaman triaj pembangun daripada modal Tentang
 - 🚀 Pembaikan Susur Keluar & U-Turn Haram: Penjajaran pintar terus ke laluan sah (Brem Mall / Kepong rotary) tanpa melintas garisan berkembar (FB-004)
 - 🚀 Pengesanan Sampai Destinasi Tepat: Menghapuskan isu tamat navigasi pramatang di laluan selari (FB-005)
 - 🚀 Paparan Had Laju Dinamik: Penindasan had laju palsu 110 km/j di jalan bandar jika maklumat belum tersedia (FB-006)
@@ -22,7 +21,6 @@ This repository serves as the official public over-the-air (OTA) distribution an
 ---
 
 ### Previous Releases / Versi Terdahulu (`old_version/`):
-- [pimana-v0.5.0.apk](old_version/pimana-v0.5.0.apk) (0.48 MB)
 - [pimana-v0.4.0.apk](old_version/pimana-v0.4.0.apk) (0.46 MB)
 
 ---
