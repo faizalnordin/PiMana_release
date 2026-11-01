@@ -1,0 +1,17 @@
+{
+  "versionCode": 4,
+  "versionName": "0.4.0",
+  "releaseDate": "2026-11-01",
+  "minSdkVersion": 21,
+  "apkUrl": "https://github.com/faizalnordin/PiMana_release/releases/download/v0.4.0/pimana-v0.4.0.apk",
+  "fallbackUrl": "https://t.me/pimana",
+  "title": "PiMana v0.4.0 OTA Update",
+  "changelog": [
+    "Sistem kemas kini terus dalam aplikasi (In-place OTA Updater)",
+    "Penyegerakan automatik melalui saluran rasmi GitHub PiMana_release",
+    "Pengesanan had laju & radar AwAS yang dipertingkatkan",
+    "Sifar-Telemetri & perlindungan privasi data lokasi kekal terpelihara"
+  ],
+  "isCritical": false
+}
+
