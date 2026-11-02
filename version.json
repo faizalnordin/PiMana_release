@@ -1,17 +1,17 @@
 {
-  "versionCode": 8,
-  "versionName": "0.6.1",
-  "releaseDate": "2026-11-02",
+  "versionCode": 9,
+  "versionName": "0.7.0",
+  "releaseDate": "2026-11-03",
   "minSdkVersion": 21,
-  "apkUrl": "https://raw.githubusercontent.com/faizalnordin/PiMana_release/main/pimana-v0.6.1.apk",
+  "apkUrl": "https://raw.githubusercontent.com/faizalnordin/PiMana_release/main/pimana-v0.7.0.apk",
   "fallbackUrl": "https://t.me/pimana",
-  "title": "PiMana v0.6.1 OTA Update",
+  "title": "PiMana v0.7.0 OTA Update",
   "changelog": [
-    "Pembaikan Integriti Laluan Merentas Laut: Sekatan automatik bagi laluan mustahil antara Semenanjung Malaysia dan Sabah/Sarawak (terpisah oleh Laut China Selatan tanpa sambungan jalan raya/feri)",
-    "Penyingkiran Fallback Lebuhraya Palsu: Menghalang penjanaan garis laluan rekaan merentas lautan jika tiada jaringan jalan darat",
-    "Notifikasi & Suara Pemandu: Amaran dwibahasa yang jelas sekiranya destinasi terputus secara fizikal oleh perairan",
-    "Pembersihan Paparan Peta: Pembersihan automatik garisan laluan lama apabila carian laluan tidak sah atau gagal",
-    "Integrasi Android Auto & Kawalan Kamera: Pengekalan kebolehan sokongan Android Auto dan togol kamera AwAS daripada v0.6.0"
+    "Sokongan Navigasi Merentas Pulau (Penang Island): Pengesanan pintar dan penjanaan laluan merentasi selat ke Pulau Pinang dari tanah besar melalui dwi-jambatan; Jambatan Pertama (E36) atau Jambatan Kedua Sultan Abdul Halim Muadzam Shah (E28)",
+    "Penyesuaian Destinasi Pintar (Smart Destination Snapping): Pengecaman automatik bagi puncak atau kawasan larangan kenderaan seperti Bukit Bendera (Penang Hill), dialihkan terus ke Stesen Keretapi Bukit Bendera & Tempat Letak Kereta Bertingkat Air Itam dengan panduan visual",
+    "Kelajuan Inter-City & Koridor Lebuhraya Luar Talian: Pengoptimuman drastik carian jarak jauh (PLUS Utara E1, PLUS Selatan E2, LPT E8) mengurangkan kelewatan OSRM daripada 200s+ ke ~1.5s dengan fallback lebuhraya deterministik 0ms luar talian",
+    "Pembaikan Bounding Box & Mod Simulasi: Membaiki ralat inverted bounding box MapLibre GL bagi laluan barat laut (KLCC ke Ipoh/Kedah) serta penyegerakan input tersuai pada laci simulasi",
+    "Polisi Paparan Had Laju Tulen (Sifar-Andaian): Menghapuskan semua tekaan had laju. Lencana had laju kokpit hanya dipaparkan apabila menghampiri kamera AwAS/AES yang sahih (<=1,500m) atau amaran radar aktif; jika tiada kamera AwAS, lencana disembunyikan sepenuhnya"
   ],
   "isCritical": false
 }
