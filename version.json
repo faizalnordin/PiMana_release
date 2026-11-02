@@ -1,18 +1,17 @@
 {
-  "versionCode": 7,
-  "versionName": "0.6.0",
+  "versionCode": 8,
+  "versionName": "0.6.1",
   "releaseDate": "2026-11-02",
   "minSdkVersion": 21,
-  "apkUrl": "https://raw.githubusercontent.com/faizalnordin/PiMana_release/main/pimana-v0.6.0.apk",
+  "apkUrl": "https://raw.githubusercontent.com/faizalnordin/PiMana_release/main/pimana-v0.6.1.apk",
   "fallbackUrl": "https://t.me/pimana",
-  "title": "PiMana v0.6.0 OTA Update",
+  "title": "PiMana v0.6.1 OTA Update",
   "changelog": [
-    "Integrasi Perkhidmatan Android Auto: Pendaftaran PiManaCarAppService bersama kategori NAVIGATION & PROJECTION bagi membolehkan aplikasi dikesan dalam Customize Launcher Android Auto",
-    "Kawalan Lapisan Kamera AwAS di Peta: Butang togol pantas [📷] untuk memaparkan atau menyembunyikan penanda lokasi kamera AwAS pada peta dengan simpanan pilihan",
-    "Pembersihan Antaramuka: Menghapuskan pautan dalaman triaj pembangun daripada modal Tentang",
-    "Pembaikan Susur Keluar & U-Turn Haram: Penjajaran pintar terus ke laluan sah (Brem Mall / Kepong rotary) tanpa melintas garisan berkembar (FB-004)",
-    "Pengesanan Sampai Destinasi Tepat: Menghapuskan isu tamat navigasi pramatang di laluan selari (FB-005)",
-    "Paparan Had Laju Dinamik: Penindasan had laju palsu 110 km/j di jalan bandar jika maklumat belum tersedia (FB-006)"
+    "Pembaikan Integriti Laluan Merentas Laut: Sekatan automatik bagi laluan mustahil antara Semenanjung Malaysia dan Sabah/Sarawak (terpisah oleh Laut China Selatan tanpa sambungan jalan raya/feri)",
+    "Penyingkiran Fallback Lebuhraya Palsu: Menghalang penjanaan garis laluan rekaan merentas lautan jika tiada jaringan jalan darat",
+    "Notifikasi & Suara Pemandu: Amaran dwibahasa yang jelas sekiranya destinasi terputus secara fizikal oleh perairan",
+    "Pembersihan Paparan Peta: Pembersihan automatik garisan laluan lama apabila carian laluan tidak sah atau gagal",
+    "Integrasi Android Auto & Kawalan Kamera: Pengekalan kebolehan sokongan Android Auto dan togol kamera AwAS daripada v0.6.0"
   ],
   "isCritical": false
 }

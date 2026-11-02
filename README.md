@@ -2,22 +2,21 @@
 
 This repository serves as the official public over-the-air (OTA) distribution and update channel for **PiMana** (Private Personal Automotive Navigation for Malaysians).
 
-## Latest Release: v0.6.0 (Build 7)
+## Latest Release: v0.6.1 (Build 8)
 
-- **Direct Download**: [pimana-v0.6.0.apk](pimana-v0.6.0.apk) (0.48 MB)
+- **Direct Download**: [pimana-v0.6.1.apk](pimana-v0.6.1.apk) (0.48 MB)
 - **Mirror APK**: [pimana.apk](pimana.apk)
 - **Release Date**: 2026-11-02
 - **Package Name**: `com.pimana.app`
 - **Min SDK**: Android 5.0 (API 21)
 - **Target SDK**: Android 9.0 (API 28)
 
-### What's New in v0.6.0:
-- 🚀 Integrasi Perkhidmatan Android Auto: Pendaftaran PiManaCarAppService bersama kategori NAVIGATION & PROJECTION bagi membolehkan aplikasi dikesan dalam Customize Launcher Android Auto
-- 🚀 Kawalan Lapisan Kamera AwAS di Peta: Butang togol pantas [📷] untuk memaparkan atau menyembunyikan penanda lokasi kamera AwAS pada peta dengan simpanan pilihan
-- 🚀 Pembersihan Antaramuka: Menghapuskan pautan dalaman triaj pembangun daripada modal Tentang
-- 🚀 Pembaikan Susur Keluar & U-Turn Haram: Penjajaran pintar terus ke laluan sah (Brem Mall / Kepong rotary) tanpa melintas garisan berkembar (FB-004)
-- 🚀 Pengesanan Sampai Destinasi Tepat: Menghapuskan isu tamat navigasi pramatang di laluan selari (FB-005)
-- 🚀 Paparan Had Laju Dinamik: Penindasan had laju palsu 110 km/j di jalan bandar jika maklumat belum tersedia (FB-006)
+### What's New in v0.6.1:
+- 🚀 Pembaikan Integriti Laluan Merentas Laut: Sekatan automatik bagi laluan mustahil antara Semenanjung Malaysia dan Sabah/Sarawak (terpisah oleh Laut China Selatan tanpa sambungan jalan raya/feri)
+- 🚀 Penyingkiran Fallback Lebuhraya Palsu: Menghalang penjanaan garis laluan rekaan merentas lautan jika tiada jaringan jalan darat
+- 🚀 Notifikasi & Suara Pemandu: Amaran dwibahasa yang jelas sekiranya destinasi terputus secara fizikal oleh perairan
+- 🚀 Pembersihan Paparan Peta: Pembersihan automatik garisan laluan lama apabila carian laluan tidak sah atau gagal
+- 🚀 Integrasi Android Auto & Kawalan Kamera: Pengekalan kebolehan sokongan Android Auto dan togol kamera AwAS daripada v0.6.0
 
 ---
 
@@ -34,7 +33,7 @@ Sekiranya anda ingin memaparkan PiMana pada skrin Android Auto kereta anda:
 2. **Pasang APK Menggunakan KingInstaller**:
    - Google secara lalai menyekat aplikasi luar (*sideload*) daripada dipaparkan di Android Auto melainkan ia dipasang dengan pengenalan Google Play Store.
    - Muat turun aplikasi percuma **[KingInstaller](https://github.com/fcaronte/KingInstaller/releases)** di telefon anda.
-   - Buka KingInstaller, pilih fail APK `pimana-v0.6.0.apk`, dan tekan **"Install as king"**.
+   - Buka KingInstaller, pilih fail APK `pimana-v0.6.1.apk`, dan tekan **"Install as king"**.
    - Buka **Android Auto > Customize Launcher** di telefon anda. Ikon **PiMana** kini akan muncul dan boleh diaktifkan.
 
 > [!NOTE]
@@ -45,6 +44,7 @@ Sekiranya anda ingin memaparkan PiMana pada skrin Android Auto kereta anda:
 ---
 
 ### Previous Releases / Versi Terdahulu (`old_version/`):
+- [pimana-v0.6.0.apk](old_version/pimana-v0.6.0.apk) (0.48 MB)
 - [pimana-v0.5.1.apk](old_version/pimana-v0.5.1.apk) (0.48 MB)
 - [pimana-v0.4.0.apk](old_version/pimana-v0.4.0.apk) (0.46 MB)
 
