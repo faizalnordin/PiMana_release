@@ -1,15 +1,15 @@
 {
-  "versionCode": 11,
-  "versionName": "0.7.2",
+  "versionCode": 12,
+  "versionName": "0.7.3",
   "releaseDate": "2026-11-03",
   "minSdkVersion": 21,
-  "apkUrl": "https://raw.githubusercontent.com/faizalnordin/PiMana_release/main/pimana-v0.7.2.apk",
+  "apkUrl": "https://raw.githubusercontent.com/faizalnordin/PiMana_release/main/pimana-v0.7.3.apk",
   "fallbackUrl": "https://t.me/pimana",
-  "title": "PiMana v0.7.2 OTA Update",
+  "title": "PiMana v0.7.3 OTA Update",
   "changelog": [
-    "Pembaikan Gesaan Kemas Kini Berulang (FB-014): Penyelarasan kod versi aplikasi dengan manifes pengeluaran serta integrasi pengesanan versi dinamik terus dari sistem operasi Android (PackageManager) bagi menghapuskan gesaan kemas kini palsu semasa aplikasi dilancarkan.",
-    "Penambahbaikan Format Maklum Balas: Pembersihan aksara backslash ('\\') pada tanda noktah, sempang dan seru agar mesej maklum balas pemandu terpapar dengan kemas dan tepat di Telegram.",
-    "Penyelarasan UI/UX Modal & Pemasa Layar Peta: Butang tutup modal standard 36x36px bulat dengan kesan hover glow (FB-009) dan kiraan undur rehat peta 15-saat bermula pada akhir sentuhan (FB-010)."
+    "Penamatan Sesi Ketibaan Segerak (FB-011): Status navigasi ditamatkan dan cache storan destinasi dipadam serta-merta pada saat tiba di destinasi, menghapuskan isu resume atau auto-reroute ketika aplikasi dibuka semula.",
+    "Pembersihan Paparan Panduan Selekoh (FB-012): Sepanduk amaran garisan berkembar dipadamkan dari kad HUD navigasi bagi memastikan tumpuan pemanduan kekal tenang dan jelas.",
+    "Pengoptimuman Sentuhan Modal Mudah Alih (FB-013): Butang tutup modal kini menyokong touch-action manipulation, z-index yang diperkukuh, serta dwipendengar klik/sentuh untuk kebolehgunaan responsif pada Android."
   ],
   "isCritical": false
 }
