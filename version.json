@@ -1,19 +1,14 @@
 {
-  "versionCode": 9,
-  "versionName": "0.7.0",
+  "versionCode": 10,
+  "versionName": "0.7.1",
   "releaseDate": "2026-11-03",
   "minSdkVersion": 21,
-  "apkUrl": "https://raw.githubusercontent.com/faizalnordin/PiMana_release/main/pimana-v0.7.0.apk",
+  "apkUrl": "https://raw.githubusercontent.com/faizalnordin/PiMana_release/main/pimana-v0.7.1.apk",
   "fallbackUrl": "https://t.me/pimana",
-  "title": "PiMana v0.7.0 OTA Update",
+  "title": "PiMana v0.7.1 OTA Update",
   "changelog": [
-    "Sokongan Navigasi Merentas Selat & Pulau (Pulau Pinang, Langkawi & Labuan): Pengesanan pintar dwi-jambatan Pulau Pinang (E36 & E28) serta dwi-mod lintasan feri Langkawi dan Labuan (jeti feri penumpang dengan kemudahan parkir vs feri kenderaan Ro-Ro merentasi laut)",
-    "Penyesuaian ETA & Penafian Jadual Feri Ro-Ro: Pemisahan masa pemanduan darat ke jeti feri kenderaan dan penafian rasmi bahawa pelayaran tertakluk kepada jadual feri & giliran pelabuhan di luar kawalan navigasi",
-    "Pembersihan Peta Bersih & Pembatalan Suara Modal ('x'): Memadamkan garisan laluan dan penanda pada peta serta membatalkan pertuturan tertunda dengan pengumuman rasmi 'Navigasi dibatalkan' apabila butang tutup modal disentuh",
-    "Penyesuaian Destinasi Pintar (Smart Destination Snapping): Pengecaman automatik bagi puncak atau kawasan larangan kenderaan seperti Bukit Bendera (Penang Hill), dialihkan terus ke Stesen Keretapi Bukit Bendera & Tempat Letak Kereta Bertingkat Air Itam dengan panduan visual",
-    "Kelajuan Inter-City & Koridor Lebuhraya Luar Talian: Pengoptimuman drastik carian jarak jauh (PLUS Utara E1, PLUS Selatan E2, LPT E8) mengurangkan kelewatan OSRM daripada 200s+ ke ~1.5s dengan fallback lebuhraya deterministik 0ms luar talian",
-    "Polisi Paparan Had Laju Tulen (Sifar-Andaian): Menghapuskan semua tekaan had laju. Lencana had laju kokpit hanya dipaparkan apabila menghampiri kamera AwAS/AES yang sahih (<=1,500m) atau amaran radar aktif; jika tiada kamera AwAS, lencana disembunyikan sepenuhnya",
-    "Penyelarasan Maklum Balas Automatik (FB-008): Penghalaan maklum balas pemandu terus ke Saluran Telegram (-1003665471011) untuk kutipan automatik oleh Listener Bot dan Feedback Hub"
+    "Penambahbaikan UI/UX: Penyelarasan ikon tutup modal (.btn-modal-close) kepada rekabentuk bulat 36x36px bersatu dengan kesan hover glow di semua 5 modal aplikasi (FB-009)",
+    "Pembaikan Pemasa Kembali GPS Semasa Layar Peta: Kiraan undur 15-saat kini bermula dari saat pengguna melepaskan jari (dragend/touchend) dan bukan dari awal sentuhan — mengelakkan pemasa terlalu cepat semasa layar peta (FB-010)"
   ],
   "isCritical": false
 }

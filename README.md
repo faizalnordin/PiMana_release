@@ -2,23 +2,18 @@
 
 This repository serves as the official public over-the-air (OTA) distribution and update channel for **PiMana** (Private Personal Automotive Navigation for Malaysians).
 
-## Latest Release: v0.7.0 (Build 9)
+## Latest Release: v0.7.1 (Build 10)
 
-- **Direct Download**: [pimana-v0.7.0.apk](pimana-v0.7.0.apk) (0.49 MB)
+- **Direct Download**: [pimana-v0.7.1.apk](pimana-v0.7.1.apk) (0.49 MB)
 - **Mirror APK**: [pimana.apk](pimana.apk)
 - **Release Date**: 2026-11-03
 - **Package Name**: `com.pimana.app`
 - **Min SDK**: Android 5.0 (API 21)
 - **Target SDK**: Android 9.0 (API 28)
 
-### What's New in v0.7.0:
-- 🚀 Sokongan Navigasi Merentas Selat & Pulau (Pulau Pinang, Langkawi & Labuan): Pengesanan pintar dwi-jambatan Pulau Pinang (E36 & E28) serta dwi-mod lintasan feri Langkawi dan Labuan (jeti feri penumpang dengan kemudahan parkir vs feri kenderaan Ro-Ro merentasi laut)
-- 🚀 Penyesuaian ETA & Penafian Jadual Feri Ro-Ro: Pemisahan masa pemanduan darat ke jeti feri kenderaan dan penafian rasmi bahawa pelayaran tertakluk kepada jadual feri & giliran pelabuhan di luar kawalan navigasi
-- 🚀 Pembersihan Peta Bersih & Pembatalan Suara Modal ('x'): Memadamkan garisan laluan dan penanda pada peta serta membatalkan pertuturan tertunda dengan pengumuman rasmi 'Navigasi dibatalkan' apabila butang tutup modal disentuh
-- 🚀 Penyesuaian Destinasi Pintar (Smart Destination Snapping): Pengecaman automatik bagi puncak atau kawasan larangan kenderaan seperti Bukit Bendera (Penang Hill), dialihkan terus ke Stesen Keretapi Bukit Bendera & Tempat Letak Kereta Bertingkat Air Itam dengan panduan visual
-- 🚀 Kelajuan Inter-City & Koridor Lebuhraya Luar Talian: Pengoptimuman drastik carian jarak jauh (PLUS Utara E1, PLUS Selatan E2, LPT E8) mengurangkan kelewatan OSRM daripada 200s+ ke ~1.5s dengan fallback lebuhraya deterministik 0ms luar talian
-- 🚀 Polisi Paparan Had Laju Tulen (Sifar-Andaian): Menghapuskan semua tekaan had laju. Lencana had laju kokpit hanya dipaparkan apabila menghampiri kamera AwAS/AES yang sahih (<=1,500m) atau amaran radar aktif; jika tiada kamera AwAS, lencana disembunyikan sepenuhnya
-- 🚀 Penyelarasan Maklum Balas Automatik (FB-008): Penghalaan maklum balas pemandu terus ke Saluran Telegram (-1003665471011) untuk kutipan automatik oleh Listener Bot dan Feedback Hub
+### What's New in v0.7.1:
+- 🚀 Penambahbaikan UI/UX: Penyelarasan ikon tutup modal (.btn-modal-close) kepada rekabentuk bulat 36x36px bersatu dengan kesan hover glow di semua 5 modal aplikasi (FB-009)
+- 🚀 Pembaikan Pemasa Kembali GPS Semasa Layar Peta: Kiraan undur 15-saat kini bermula dari saat pengguna melepaskan jari (dragend/touchend) dan bukan dari awal sentuhan — mengelakkan pemasa terlalu cepat semasa layar peta (FB-010)
 
 ---
 
@@ -35,7 +30,7 @@ Sekiranya anda ingin memaparkan PiMana pada skrin Android Auto kereta anda:
 2. **Pasang APK Menggunakan KingInstaller**:
    - Google secara lalai menyekat aplikasi luar (*sideload*) daripada dipaparkan di Android Auto melainkan ia dipasang dengan pengenalan Google Play Store.
    - Muat turun aplikasi percuma **[KingInstaller](https://github.com/fcaronte/KingInstaller/releases)** di telefon anda.
-   - Buka KingInstaller, pilih fail APK `pimana-v0.7.0.apk`, dan tekan **"Install as king"**.
+   - Buka KingInstaller, pilih fail APK `pimana-v0.7.1.apk`, dan tekan **"Install as king"**.
    - Buka **Android Auto > Customize Launcher** di telefon anda. Ikon **PiMana** kini akan muncul dan boleh diaktifkan.
 
 > [!NOTE]
@@ -46,6 +41,7 @@ Sekiranya anda ingin memaparkan PiMana pada skrin Android Auto kereta anda:
 ---
 
 ### Previous Releases / Versi Terdahulu (`old_version/`):
+- [pimana-v0.7.0.apk](old_version/pimana-v0.7.0.apk) (0.49 MB)
 - [pimana-v0.6.1.apk](old_version/pimana-v0.6.1.apk) (0.48 MB)
 - [pimana-v0.6.0.apk](old_version/pimana-v0.6.0.apk) (0.48 MB)
 - [pimana-v0.5.1.apk](old_version/pimana-v0.5.1.apk) (0.48 MB)
