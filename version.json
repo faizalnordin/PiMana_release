@@ -1,14 +1,14 @@
 {
-  "versionCode": 13,
-  "versionName": "0.8.0",
-  "releaseDate": "2026-11-03",
+  "versionCode": 14,
+  "versionName": "0.8.1",
+  "releaseDate": "2026-11-04",
   "minSdkVersion": 21,
-  "apkUrl": "https://raw.githubusercontent.com/faizalnordin/PiMana_release/main/pimana-v0.8.0.apk",
+  "apkUrl": "https://raw.githubusercontent.com/faizalnordin/PiMana_release/main/pimana-v0.8.1.apk",
   "fallbackUrl": "https://t.me/pimana",
-  "title": "PiMana v0.8.0 OTA Update",
+  "title": "PiMana v0.8.1 OTA Update",
   "changelog": [
-    "FB-015: Penambahbaikan UI & Navigasi Luar Talian.",
-    "FB-016: Pengoptimuman Paparan & Mod Malam Automotif."
+    "Penyelarasan Dinamik Versi Maklum Balas: Format mesej ke Telegram kini sentiasa mengikut versi binaan peranti sebenar.",
+    "Penyegerakan Penuh v0.8.1 (Build 14): Penyeragaman kod binaan dan butang pusatkan semula beroda sasaran retikel."
   ],
   "isCritical": false
 }
