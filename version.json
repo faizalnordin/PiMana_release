@@ -1,14 +1,15 @@
 {
-  "versionCode": 10,
-  "versionName": "0.7.1",
+  "versionCode": 11,
+  "versionName": "0.7.2",
   "releaseDate": "2026-11-03",
   "minSdkVersion": 21,
-  "apkUrl": "https://raw.githubusercontent.com/faizalnordin/PiMana_release/main/pimana-v0.7.1.apk",
+  "apkUrl": "https://raw.githubusercontent.com/faizalnordin/PiMana_release/main/pimana-v0.7.2.apk",
   "fallbackUrl": "https://t.me/pimana",
-  "title": "PiMana v0.7.1 OTA Update",
+  "title": "PiMana v0.7.2 OTA Update",
   "changelog": [
-    "Penambahbaikan UI/UX: Penyelarasan ikon tutup modal (.btn-modal-close) kepada rekabentuk bulat 36x36px bersatu dengan kesan hover glow di semua 5 modal aplikasi (FB-009)",
-    "Pembaikan Pemasa Kembali GPS Semasa Layar Peta: Kiraan undur 15-saat kini bermula dari saat pengguna melepaskan jari (dragend/touchend) dan bukan dari awal sentuhan — mengelakkan pemasa terlalu cepat semasa layar peta (FB-010)"
+    "Pembaikan Gesaan Kemas Kini Berulang (FB-014): Penyelarasan kod versi aplikasi dengan manifes pengeluaran serta integrasi pengesanan versi dinamik terus dari sistem operasi Android (PackageManager) bagi menghapuskan gesaan kemas kini palsu semasa aplikasi dilancarkan.",
+    "Penambahbaikan Format Maklum Balas: Pembersihan aksara backslash ('\\') pada tanda noktah, sempang dan seru agar mesej maklum balas pemandu terpapar dengan kemas dan tepat di Telegram.",
+    "Penyelarasan UI/UX Modal & Pemasa Layar Peta: Butang tutup modal standard 36x36px bulat dengan kesan hover glow (FB-009) dan kiraan undur rehat peta 15-saat bermula pada akhir sentuhan (FB-010)."
   ],
   "isCritical": false
 }

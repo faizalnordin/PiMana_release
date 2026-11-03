@@ -2,18 +2,19 @@
 
 This repository serves as the official public over-the-air (OTA) distribution and update channel for **PiMana** (Private Personal Automotive Navigation for Malaysians).
 
-## Latest Release: v0.7.1 (Build 10)
+## Latest Release: v0.7.2 (Build 11)
 
-- **Direct Download**: [pimana-v0.7.1.apk](pimana-v0.7.1.apk) (0.49 MB)
+- **Direct Download**: [pimana-v0.7.2.apk](pimana-v0.7.2.apk) (0.49 MB)
 - **Mirror APK**: [pimana.apk](pimana.apk)
 - **Release Date**: 2026-11-03
 - **Package Name**: `com.pimana.app`
 - **Min SDK**: Android 5.0 (API 21)
 - **Target SDK**: Android 9.0 (API 28)
 
-### What's New in v0.7.1:
-- 🚀 Penambahbaikan UI/UX: Penyelarasan ikon tutup modal (.btn-modal-close) kepada rekabentuk bulat 36x36px bersatu dengan kesan hover glow di semua 5 modal aplikasi (FB-009)
-- 🚀 Pembaikan Pemasa Kembali GPS Semasa Layar Peta: Kiraan undur 15-saat kini bermula dari saat pengguna melepaskan jari (dragend/touchend) dan bukan dari awal sentuhan — mengelakkan pemasa terlalu cepat semasa layar peta (FB-010)
+### What's New in v0.7.2:
+- 🚀 Pembaikan Gesaan Kemas Kini Berulang (FB-014): Penyelarasan kod versi aplikasi dengan manifes pengeluaran serta integrasi pengesanan versi dinamik terus dari sistem operasi Android (PackageManager) bagi menghapuskan gesaan kemas kini palsu semasa aplikasi dilancarkan.
+- 🚀 Penambahbaikan Format Maklum Balas: Pembersihan aksara backslash ('\') pada tanda noktah, sempang dan seru agar mesej maklum balas pemandu terpapar dengan kemas dan tepat di Telegram.
+- 🚀 Penyelarasan UI/UX Modal & Pemasa Layar Peta: Butang tutup modal standard 36x36px bulat dengan kesan hover glow (FB-009) dan kiraan undur rehat peta 15-saat bermula pada akhir sentuhan (FB-010).
 
 ---
 
@@ -30,7 +31,7 @@ Sekiranya anda ingin memaparkan PiMana pada skrin Android Auto kereta anda:
 2. **Pasang APK Menggunakan KingInstaller**:
    - Google secara lalai menyekat aplikasi luar (*sideload*) daripada dipaparkan di Android Auto melainkan ia dipasang dengan pengenalan Google Play Store.
    - Muat turun aplikasi percuma **[KingInstaller](https://github.com/fcaronte/KingInstaller/releases)** di telefon anda.
-   - Buka KingInstaller, pilih fail APK `pimana-v0.7.1.apk`, dan tekan **"Install as king"**.
+   - Buka KingInstaller, pilih fail APK `pimana-v0.7.2.apk`, dan tekan **"Install as king"**.
    - Buka **Android Auto > Customize Launcher** di telefon anda. Ikon **PiMana** kini akan muncul dan boleh diaktifkan.
 
 > [!NOTE]
@@ -41,6 +42,7 @@ Sekiranya anda ingin memaparkan PiMana pada skrin Android Auto kereta anda:
 ---
 
 ### Previous Releases / Versi Terdahulu (`old_version/`):
+- [pimana-v0.7.1.apk](old_version/pimana-v0.7.1.apk) (0.49 MB)
 - [pimana-v0.7.0.apk](old_version/pimana-v0.7.0.apk) (0.49 MB)
 - [pimana-v0.6.1.apk](old_version/pimana-v0.6.1.apk) (0.48 MB)
 - [pimana-v0.6.0.apk](old_version/pimana-v0.6.0.apk) (0.48 MB)
