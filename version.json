@@ -1,14 +1,18 @@
 {
-  "versionCode": 14,
-  "versionName": "0.8.1",
-  "releaseDate": "2026-11-04",
+  "versionCode": 16,
+  "versionName": "0.9.0",
+  "releaseDate": "2026-11-09",
   "minSdkVersion": 21,
-  "apkUrl": "https://raw.githubusercontent.com/faizalnordin/PiMana_release/main/pimana-v0.8.1.apk",
+  "apkUrl": "https://raw.githubusercontent.com/faizalnordin/PiMana_release/main/pimana-v0.9.0.apk",
   "fallbackUrl": "https://t.me/pimana",
-  "title": "PiMana v0.8.1 OTA Update",
+  "title": "PiMana v0.9.0 Major Cockpit & Routing Milestone",
   "changelog": [
-    "Penyelarasan Dinamik Versi Maklum Balas: Format mesej ke Telegram kini sentiasa mengikut versi binaan peranti sebenar.",
-    "Penyegerakan Penuh v0.8.1 (Build 14): Penyeragaman kod binaan dan butang pusatkan semula beroda sasaran retikel."
+    "Rombakan UI/UX Cockpit Gaya Waze: Kad panduan belokan moden (ikon + jarak + nama jalan), kad ETA diringkaskan, dan meter laju seimbang.",
+    "Kursor Kenderaan Statik Kotak Merah: Kursor terpaku 100% statik di kotak merah (Y: 78% potret, 72% landskap) dengan peta berputar licin di bawahnya.",
+    "Helaian Interaktif Navigasi: Sentuh kad ETA untuk butiran destinasi penuh serta butang Hentikan atau Teruskan perjalanan.",
+    "Seni Bina Amaran AwAS Atas: Amaran kamera radar dipindahkan ke stack atas (bawah kad belokan) dengan ambang zon 750m & penapisan on-route pintar.",
+    "Keutamaan Jejambat Bertingkat (Flyover Priority): Pembatalan lencongan susur keluar bulatan (Bulatan Cheras FT1) bagi laluan terus yang optimum.",
+    "Pengekalan Titik Mula Semasa Auto-Reroute: Lokasi permulaan asal (activeTripOrigin) kekal terpelihara tanpa beralih ke lebuh raya."
   ],
   "isCritical": false
 }
