@@ -7,12 +7,11 @@
   "fallbackUrl": "https://t.me/pimana",
   "title": "PiMana v0.9.1 (Build 17)",
   "changelog": [
-    "Rombakan UI/UX Cockpit Gaya Waze: Kad panduan belokan moden (ikon + jarak + nama jalan), kad ETA diringkaskan, dan meter laju seimbang.",
-    "Kursor Kenderaan Statik Kotak Merah: Kursor terpaku 100% statik di kotak merah (Y: 78% potret, 72% landskap) dengan peta berputar licin di bawahnya.",
-    "Helaian Interaktif Navigasi: Sentuh kad ETA untuk butiran destinasi penuh serta butang Hentikan atau Teruskan perjalanan.",
-    "Seni Bina Amaran AwAS Atas: Amaran kamera radar dipindahkan ke stack atas (bawah kad belokan) dengan ambang zon 750m & penapisan on-route pintar.",
-    "Keutamaan Jejambat Bertingkat (Flyover Priority): Pembatalan lencongan susur keluar bulatan (Bulatan Cheras FT1) bagi laluan terus yang optimum.",
-    "Pengekalan Titik Mula Semasa Auto-Reroute: Lokasi permulaan asal (activeTripOrigin) kekal terpelihara tanpa beralih ke lebuh raya."
+    "FB-027: Kawalan Zum Peta Manual & Penunjuk %: Menambah butang terapung (+ / -) dan lencana peratusan (%) pada kokpit dengan zum lalai 110% (zoom 18.92).",
+    "FB-027: Zum Pintar Kedudukan Semasa: Menyusuri peta (swiping/browsing) dan menekan butang pusatkan semula (recenter) akan sentiasa kembali ke tahap zum kenderaan terkini (lalai 110%).",
+    "FB-027: Penapis Kestabilan Arah Kelajuan Rendah (Anti-Hop): Mengunci bearing kenderaan apabila kelajuan < 3.5 km/j bagi menghapuskan kursor melompat/berputar di lampu isyarat (mod roaming & navigating).",
+    "FB-028: Pelancaran Selamat Android Auto (KingInstaller): Melaksanakan launchMainActivity() dalam PiManaCarAppService.java dengan bendera selamat bagi menghapuskan NullPointerException pada unjuran skrin kenderaan.",
+    "FB-028: Format Masa ETA Padat: Menyokong paparan jam & minit 'Xhr Ymins' (contoh: '1hr 2mins', '4hrs 25mins', '1hr', '45 mins') dengan sebutan suara tepat."
   ],
   "isCritical": false
 }
