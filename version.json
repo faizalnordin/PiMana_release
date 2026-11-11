@@ -1,11 +1,11 @@
 {
-  "versionCode": 16,
-  "versionName": "0.9.0",
-  "releaseDate": "2026-11-09",
+  "versionCode": 17,
+  "versionName": "0.9.1",
+  "releaseDate": "2026-11-11",
   "minSdkVersion": 21,
-  "apkUrl": "https://raw.githubusercontent.com/faizalnordin/PiMana_release/main/pimana-v0.9.0.apk",
+  "apkUrl": "https://raw.githubusercontent.com/faizalnordin/PiMana_release/main/pimana-v0.9.1.apk",
   "fallbackUrl": "https://t.me/pimana",
-  "title": "PiMana v0.9.0 Major Cockpit & Routing Milestone",
+  "title": "PiMana v0.9.1 (Build 17)",
   "changelog": [
     "Rombakan UI/UX Cockpit Gaya Waze: Kad panduan belokan moden (ikon + jarak + nama jalan), kad ETA diringkaskan, dan meter laju seimbang.",
     "Kursor Kenderaan Statik Kotak Merah: Kursor terpaku 100% statik di kotak merah (Y: 78% potret, 72% landskap) dengan peta berputar licin di bawahnya.",
