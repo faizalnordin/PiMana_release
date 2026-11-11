@@ -12,11 +12,11 @@ This repository serves as the official public over-the-air (OTA) distribution an
 - **Target SDK**: Android 9.0 (API 28)
 
 ### What's New in v0.9.1:
-- 🚀 FB-027: Kawalan Zum Peta Manual & Penunjuk %: Menambah butang terapung (+ / -) dan lencana peratusan (%) pada kokpit dengan zum lalai 110% (zoom 18.92).
-- 🚀 FB-027: Zum Pintar Kedudukan Semasa: Menyusuri peta (swiping/browsing) dan menekan butang pusatkan semula (recenter) akan sentiasa kembali ke tahap zum kenderaan terkini (lalai 110%).
-- 🚀 FB-027: Penapis Kestabilan Arah Kelajuan Rendah (Anti-Hop): Mengunci bearing kenderaan apabila kelajuan < 3.5 km/j bagi menghapuskan kursor melompat/berputar di lampu isyarat (mod roaming & navigating).
-- 🚀 FB-028: Pelancaran Selamat Android Auto (KingInstaller): Melaksanakan launchMainActivity() dalam PiManaCarAppService.java dengan bendera selamat bagi menghapuskan NullPointerException pada unjuran skrin kenderaan.
-- 🚀 FB-028: Format Masa ETA Padat: Menyokong paparan jam & minit 'Xhr Ymins' (contoh: '1hr 2mins', '4hrs 25mins', '1hr', '45 mins') dengan sebutan suara tepat.
+- 🚀 FB-027 (Kawalan Zum Kokpit): Butang (+ / -) dan penunjuk % terapung dengan tahap zum lalai dinaikkan ke 110% (zoom 18.92).
+- 🚀 FB-027 (Zum Pintar Kedudukan Semasa): Meleret peta dan menekan pusatkan semula (recenter) memulihkan ke tahap zum kenderaan terkini (lalai 110%).
+- 🚀 FB-027 (Kunci Arah Kelajuan Rendah - Anti-Hop): Mengunci bearing kenderaan apabila kelajuan < 3.5 km/j bagi menghapuskan kursor melompat/berputar di lampu isyarat.
+- 🚀 FB-028 (Pelancaran Selamat Android Auto): Pelancaran selamat launchMainActivity() dalam PiManaCarAppService bagi menghapuskan NullPointerException semasa pemasangan KingInstaller.
+- 🚀 FB-028 (Format Masa ETA Padat): Menyokong paparan tempoh masa padat 'Xhr Ymins' (contoh: '1hr 2mins', '4hrs 25mins', '45 mins') dengan sebutan suara tepat.
 
 ---
 
