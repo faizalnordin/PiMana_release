@@ -12,7 +12,7 @@ This repository serves as the official public over-the-air (OTA) distribution an
 - **Target SDK**: Android 9.0 (API 28)
 
 ### What's New in v0.9.2:
-- 🚀 FB-029: I updated to 0.9.1 via OTA. Open the apps, the disclaimer prompt loaded but nothing happen
+- 🐞 Bug fix: Paparan penafian tidak bertindak balas selepas kemas kini OTA (FB-029)
 
 ---
 
