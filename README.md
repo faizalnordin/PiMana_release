@@ -12,7 +12,7 @@ This repository serves as the official public over-the-air (OTA) distribution an
 - **Target SDK**: Android 9.0 (API 28)
 
 ### What's New in v0.9.2:
-- 🐞 Bug fix: Paparan penafian tidak bertindak balas selepas kemas kini OTA (FB-029)
+- 🚀 🐞 Bug fix: Paparan penafian tidak bertindak balas selepas kemas kini OTA (FB-029)
 
 ---
 

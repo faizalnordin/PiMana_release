@@ -1,13 +1,13 @@
 {
-    "versionCode": 18,
-    "versionName": "0.9.2",
-    "releaseDate": "2026-11-13",
-    "minSdkVersion": 21,
-    "apkUrl": "https://raw.githubusercontent.com/faizalnordin/PiMana_release/main/pimana-v0.9.2.apk",
-    "fallbackUrl": "https://t.me/pimana",
-    "title": "PiMana v0.9.2 (Build 18)",
-    "changelog": [
-        "🐞 Bug fix: Paparan penafian tidak bertindak balas selepas kemas kini OTA (FB-029)"
-    ],
-    "isCritical": false
+  "versionCode": 18,
+  "versionName": "0.9.2",
+  "releaseDate": "2026-11-13",
+  "minSdkVersion": 21,
+  "apkUrl": "https://raw.githubusercontent.com/faizalnordin/PiMana_release/main/pimana-v0.9.2.apk",
+  "fallbackUrl": "https://t.me/pimana",
+  "title": "PiMana v0.9.2 (Build 18)",
+  "changelog": [
+    "🐞 Bug fix: Paparan penafian tidak bertindak balas selepas kemas kini OTA (FB-029)"
+  ],
+  "isCritical": false
 }
